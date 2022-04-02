@@ -1,0 +1,99 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+    font-size: 50px;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 30px;
+    background-color: gray;
+}
+
+td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 22px;
+    text-align: center;
+}
+
+#box-model {
+    padding: 20px;
+    border-width: 3px;
+    margin: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    float: left;
+    border-radius: 150px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.headings2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    font-style: oblique;
+    border-style: ridge;
+    background-color: goldenrod;
+    border-color: goldenrod;
+    text-align: center; 
+}
+
+#artist {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#songs {
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    list-style-type: square;
+    margin-left: 500px;
+}
+
+#box-model2 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.indimg {
+    border-radius: 8px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
